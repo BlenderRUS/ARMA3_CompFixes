@@ -1,0 +1,6 @@
+///////<HEADER>///////
+prefix=a3ru_air_rearmove
+Mikero=DePbo.dll
+Pbo Type is: Arma Addon
+Sha: '3FEB5EA4FB631BEA7EAD7E78688CCF86D553FA64'
+//////</HEADER>//////
