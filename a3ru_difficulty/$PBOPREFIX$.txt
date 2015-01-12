@@ -1,6 +1,0 @@
-///////<HEADER>///////
-prefix=a3ru_hideui
-Mikero=DePbo.dll
-Pbo Type is: Arma Addon
-Sha: '9BFCA95C49DE6600E6C193D5A987D40D7E709D16'
-//////</HEADER>//////
