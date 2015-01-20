@@ -1,12 +1,15 @@
 class CfgPatches
 {
-	class hlc_to_rhs
+	class A3RU_HLC_to_RHS
 	{
 		requiredAddons[] = { "hlcweapons_aks", "rhs_c_weapons" };
 		units[] = {};
 		weapons[] = {};
-		author = "Blender";
-		version[] = {"1.1", "0.3.5"};
+		version = "1.1";
+		versionStr = "1.1";
+		versionAr[] = {1,1};
+		author[] = { "Blender" };
+		authorUrl = "http://www.arma3.ru";
 		description = "HLC <-> RHS AK's magazines and GP compatibility";
 	};
 };

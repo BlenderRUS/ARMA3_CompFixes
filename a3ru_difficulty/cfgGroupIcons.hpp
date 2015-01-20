@@ -3,8 +3,8 @@ class cfgGroupIcons
 	class Flag
 	{
 		name = "$STR_CFG_MARKERS_FLAG";
-		icon = "\a3ru_hideui\empty.paa";
-		//texture = "\a3ru_hideui\empty.paa";
+		icon = "\A3RU_difficulty\empty.paa";
+		//texture = "\A3RU_difficulty\empty.paa";
 		texture = "";
 		color[] = {1,0,0,1};
 		size = 32;

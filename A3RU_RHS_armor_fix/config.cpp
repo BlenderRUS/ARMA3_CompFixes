@@ -118,7 +118,7 @@ class CfgVehicles {
 						name = "zbran";
 						visual = "zbran";
 						passThrough = 0;
-						minimalHit = 0.2;
+						minimalHit = 0.1;
 						explosionShielding = 1;
 					};
 				};

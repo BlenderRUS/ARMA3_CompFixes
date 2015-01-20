@@ -1,12 +1,12 @@
-#define _ARMA_
-
 class CfgPatches
 {
-	class a3ru_difficulty
+	class A3RU_difficulty
 	{
+		version = "1.1";
+		versionStr = "1.1";
+		versionAr[] = {1,1};
 		author = "Blender";
-		url = "http://arma3.ru";
-		version[] = { "1.1" };
+		authorUrl = "http://arma3.ru";
 		description = "Removed spotted units markers, radio protocol, increased difficulty settings";
 		units[] = {};
 		weapons[] = {};

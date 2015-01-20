@@ -1,6 +1,0 @@
-///////<HEADER>///////
-prefix=Program Files (x86)\Steam\SteamApps\common\Arma 3\@A3RU_WEAPONS\Addons\HLC_TO_RHS
-Mikero=DePbo.dll
-Pbo Type is: Arma Addon
-Sha: '067815483A216363C7E5659D805BCCD127732242'
-//////</HEADER>//////

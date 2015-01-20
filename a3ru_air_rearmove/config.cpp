@@ -1,13 +1,16 @@
 class CfgPatches
 {
-   class a3ru_air_rearmove
+   class A3RU_air_rearmove
    {
        units[]={};
        weapons[]={};
-       requiredVersion=0.1;
+       requiredVersion=1.36;
        requiredAddons[]={ "Extended_Eventhandlers" };
-	   author[]={ "Blender" };
-	   version[]={ "1.0" };
+	   version = "1.0";
+	   versionStr = "1.0";
+	   versionAr[] = {1,0};
+	   author[] = { "Blender" };
+	   authorUrl = "http://www.arma3.ru";
 	   description = "Planes can slowly move backwards";
    };
 };
@@ -18,4 +21,4 @@ class Extended_PostInit_EventHandlers {
 	};
 };
 
-#include "\a3ru_air_rearmove\CfgFunctions.hpp"
+#include "\A3RU_air_rearmove\CfgFunctions.hpp"

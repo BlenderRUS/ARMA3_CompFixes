@@ -2,13 +2,16 @@
 
 class CfgPatches
 {
-	class a3ru_rhs_uniform_fix
+	class A3RU_RHS_uniform_fix
 	{
 		units[] = {};
 		weapons[] = {};
 		requiredAddons[] = { rhsusf_c_troops };
-		author[] = {"Blender"};
-		version[] = { "1.1", "0.3.5" };
+		version = "1.1";
+		versionStr = "1.1";
+		versionAr[] = {1,1};
+		author[] = { "Blender" };
+		authorUrl = "http://www.arma3.ru";
 		description = "US Army infantry uniform side fix";
 	};
 };
