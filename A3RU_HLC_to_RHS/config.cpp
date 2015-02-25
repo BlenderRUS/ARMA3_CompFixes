@@ -2,12 +2,12 @@ class CfgPatches
 {
 	class A3RU_HLC_to_RHS
 	{
-		requiredAddons[] = { "hlcweapons_aks", "rhs_c_weapons" };
+		requiredAddons[] = { "hlcweapons_aks", "rhs_c_weapons", "rhsusf_c_weapons" };
 		units[] = {};
 		weapons[] = {};
-		version = "1.1";
-		versionStr = "1.1";
-		versionAr[] = {1,1};
+		version = "1.2";
+		versionStr = "1.2";
+		versionAr[] = {1,2};
 		author[] = { "Blender" };
 		authorUrl = "http://www.arma3.ru";
 		description = "HLC <-> RHS AK's magazines and GP compatibility";
@@ -119,4 +119,23 @@ class CfgWeapons
 		};
 	};
 	class rhs_weap_akms: rhs_weap_akm {};
+	class LMG_Mk200_F;
+	class rhs_M249_base: LMG_Mk200_F {
+		magazines[] =
+		{
+			"rhsusf_100Rnd_556x45_soft_pouch",
+			//rhs mags
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_M855A1_Stanag",
+			"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
+			"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green",
+			"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow",
+
+			//bis mags compatibility
+			"30Rnd_556x45_Stanag",
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag_Tracer_Green",
+			"30Rnd_556x45_Stanag_Tracer_Yellow"
+		};
+	};
 };

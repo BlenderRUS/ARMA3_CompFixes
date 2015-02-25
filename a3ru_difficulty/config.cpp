@@ -2,9 +2,9 @@ class CfgPatches
 {
 	class A3RU_difficulty
 	{
-		version = "1.1";
-		versionStr = "1.1";
-		versionAr[] = {1,1};
+		version = "1.2";
+		versionStr = "1.2";
+		versionAr[] = {1,2};
 		author = "Blender";
 		authorUrl = "http://arma3.ru";
 		description = "Removed spotted units markers, radio protocol, increased difficulty settings";
