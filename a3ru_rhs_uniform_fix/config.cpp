@@ -24,8 +24,9 @@ class HitLegs;
 
 class CfgVehicles
 {
-	class SoldierEB;
-	class rhsusf_infantry_army_base : SoldierEB
+	class SoldierGB;
+	class SoldierWB;
+	class rhsusf_infantry_army_base : SoldierWB
 	{
 		class HitPoints: HitPoints
 		{
@@ -62,10 +63,12 @@ class CfgVehicles
 				minimalHit=0;
 			};
 		};
+		armor=2;
+		armorStructural=5;
 		modelsides[] = {1, 3};
 	};
 
-	class rhs_infantry_msv_base: SoldierEB
+	class rhs_infantry_msv_base: SoldierWB
 	{
 		class HitPoints: HitPoints
 		{
@@ -102,6 +105,8 @@ class CfgVehicles
 				minimalHit=0;
 			};
 		};
+		armor=2;
+		armorStructural=5;
 	};
 	class rhs_infantry_vdv_base: rhs_infantry_msv_base
 	{
