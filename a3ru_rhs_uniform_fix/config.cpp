@@ -26,7 +26,7 @@ class CfgVehicles
 {
 	class SoldierGB;
 	class SoldierWB;
-	class rhsusf_infantry_army_base : SoldierWB
+	class rhsusf_infantry_army_base : SoldierGB
 	{
 		class HitPoints: HitPoints
 		{
